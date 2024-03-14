@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Header } from "./header";
 import { MainActivity } from "./main-acitvity";
-import { Blog } from "./blog";
+import { MainBlog } from "./main-blog";
+import { SiWhatsapp } from "react-icons/si";
+import { StaffCard } from "./staff-card";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,15 +12,15 @@ function App() {
     <div className="flex flex-col  w-full h-screen">
       <Header />
       <MainActivity />
-      <div className="p-8 flex flex-col  space-y-10 ">
-        <div className="   text-[37px] flex  font-medium space-x-4">
-          <div className="">FROM OUR</div>
-          <div className=" text-blue-300"> BLOG</div>
+      <MainBlog />
+      <div className="p-8 space-y-12   bg-gray-100">
+        <div className="  text-[37px] flex  font-medium space-x-4">
+          <div className="">MEET OUR </div>
+          <div className=" text-blue-300"> STAFF</div>
         </div>
-        <div className="flex text-[22px] justify-between">
-        <Blog/>
+
+        <StaffCard />
       </div>
-      </div >
     </div>
   );
 }

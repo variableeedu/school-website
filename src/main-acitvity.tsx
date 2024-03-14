@@ -13,7 +13,9 @@ export function MainActivity(){
             eiusmod temp incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam.
           </div>
-          <Button />
+          <Button 
+
+          title="More Info  →"/>
         </div>
         <div className=" pt-20 pb-12 text-[37px] flex  font-medium space-x-4">
           <div className="">SOME OF OUR </div>
