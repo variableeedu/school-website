@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Header } from "./header";
 import { MainActivity } from "./main-acitvity";
+import { MainGallery } from "./main-gallery";
 import { MainBlog } from "./main-blog";
-import { SiWhatsapp } from "react-icons/si";
-import { StaffCard } from "./staff-card";
+import { MainStaff } from "./main-staff";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,14 +13,8 @@ function App() {
       <Header />
       <MainActivity />
       <MainBlog />
-      <div className="p-8 space-y-12   bg-gray-100">
-        <div className="  text-[37px] flex  font-medium space-x-4">
-          <div className="">MEET OUR </div>
-          <div className=" text-blue-300"> STAFF</div>
-        </div>
-
-        <StaffCard />
-      </div>
+      <MainStaff />
+      <MainGallery />
     </div>
   );
 }

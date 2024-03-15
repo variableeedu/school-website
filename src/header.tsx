@@ -2,7 +2,7 @@ import { WiMoonAltThirdQuarter } from "react-icons/wi";
 
 export function Header(){
     return <>
-    <div className="flex h-24   w-full p-8 text-[22px] space-x-20 border-2"> 
+    <div className="flex h-24   w-full p-8 text-[22px] space-x-20 "> 
       <div className="">Rapkhen</div>
       <div className="">Home</div>
       <div className="">About us</div>
