@@ -9,9 +9,9 @@ export function GarlleryCard(props: {
   return (
     <>
       <div className="flex    flex-col  ">
-        <div className=" flex space-x-4">
-          <img className=" w-[500px] " src={props.csrc} alt="" />
-          <img className=" w-[770px]" src={props.asrc} alt="" />
+        <div className=" flex space-x-8">
+          <img className=" w-[500px] rounded-2xl " src={props.csrc} alt="" />
+          <img className=" w-[750px] rounded-2xl" src={props.asrc} alt="" />
         </div>
         <img className=" h-14 w-[400px] " src={props.bsrc} alt="" />
         <img className="  " src={props.dsrc} alt="" />
