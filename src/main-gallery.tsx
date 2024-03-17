@@ -1,3 +1,4 @@
+import { Button } from "./button";
 import { GarlleryCard } from "./gallery-card";
 
 export function MainGallery({}) {
@@ -16,6 +17,7 @@ export function MainGallery({}) {
           esrc="p5.png"
           fsrc="p6.png"
         />
+        <Button title="More Photos →"/>
       </div>
     </>
   );

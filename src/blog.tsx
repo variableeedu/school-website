@@ -25,7 +25,7 @@ export function Blog() {
           number={13}
           
 
-          src="football1.png"
+          src="play.png.jpg"
       />
       <BlogCard
       title="September 10, 2021 by Admin"

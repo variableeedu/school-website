@@ -8,15 +8,20 @@ export function GarlleryCard(props: {
 }) {
   return (
     <>
-      <div className="flex    flex-col  ">
-        <div className=" flex space-x-8">
+      <div className="flex    flex-col space-y-8  ">
+        <div className=" flex h-[500px] space-x-8">
           <img className=" w-[500px] rounded-2xl " src={props.csrc} alt="" />
           <img className=" w-[750px] rounded-2xl" src={props.asrc} alt="" />
         </div>
-        <img className=" h-14 w-[400px] " src={props.bsrc} alt="" />
-        <img className="  " src={props.dsrc} alt="" />
-        <img className="  " src={props.esrc} alt="" />
-        <img className="  " src={props.fsrc} alt="" />
+        <div className=" flex h-[500px] space-x-8">
+          <img className="  w-[750px] " src={props.bsrc} alt="" />
+          <img className=" w-[500px]  " src={props.dsrc} alt="" />
+        </div>
+        <div className=" flex h-[500px] space-x-8">
+          <img className="w-[400px]  " src={props.esrc} alt="" />
+          <img className=" w-[500px] " src={props.fsrc} alt="" />
+          <img className=" w-[320px]  " src={props.dsrc} alt="" />
+        </div>
       </div>
     </>
   );

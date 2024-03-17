@@ -9,7 +9,7 @@ export function StaffCard(props: {
   imgsrc: string;
 }) {
   return (
-    <div className="     justify-evenly  ">
+    <div className="     justify-evenly  w-full  ">
       <div className=" flex flex-col  items-center   w-[320px] space-y-2 ">
         <img className="  h-34 w-36 rounded-full " src={props.imgsrc} alt="" />
         <div className="font-bold  text-[25px]">{props.title} </div>
