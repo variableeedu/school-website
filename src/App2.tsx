@@ -32,7 +32,6 @@ function App2() {
         </div>
         {/* <div className="flex"> */}
         <div className=" flex space-x-12  ">
-          <div className="space-y-4">
             <div className=" text-blue-400 text-[40px]">WHO WE ARE --</div>
             <div className=" text-[20px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -71,7 +70,6 @@ function App2() {
                 suscipit doloribus atque.
               </div>
             </div>
-          </div>
         </div>
       </div>
       {/* </div> */}
