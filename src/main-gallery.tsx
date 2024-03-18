@@ -4,7 +4,7 @@ import { GarlleryCard } from "./gallery-card";
 export function MainGallery({}) {
   return (
     <>
-      <div className="p-8 space-y-10  ">
+      <div className="p-8   space-y-10  ">
         <div className="  text-[37px] flex  font-medium space-x-4">
           <div className="">FROM OUR </div>
           <div className=" text-blue-300"> GALLERY</div>
