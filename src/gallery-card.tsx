@@ -8,7 +8,7 @@ export function GarlleryCard(props: {
 }) {
   return (
     <>
-      <div className="flex    flex-col space-y-8  ">
+      <div className="flex justify-center items-center    flex-col space-y-8  ">
         <div className=" flex h-[470px] space-x-8">
           <img className=" w-[500px]  " src={props.csrc} alt="" />
           <img className=" w-[750px] " src={props.asrc} alt="" />
