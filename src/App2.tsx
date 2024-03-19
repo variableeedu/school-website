@@ -1,5 +1,7 @@
 import { Header } from "./header";
 import { Header2 } from "./header-2";
+import { LogoPage } from "./logo";
+import { Submit } from "./submit";
 
 function App2() {
   return (
@@ -72,14 +74,9 @@ function App2() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <div className=" text-blue-400 text-[35px]   ">
-            JOIN OUR NEWSLETTER <br />
-            AND BE THE FIRST TO KNOW!
-          </div>
-          <input type="text"  className=" bg-gray-600 h-14 w-[1100px]" />
-        </div>
       </div>
+     <Submit/>
+      <LogoPage />
     </div>
   );
 }
