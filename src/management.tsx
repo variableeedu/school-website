@@ -11,7 +11,7 @@ import { LogoPage } from "./logo";
 
 function App3() {
   return (
-    <div className="">
+    <div className="max-w-[1400px] mx-auto ">
       <Header />
       <Header2 title="Management" description="Management" />
       <div className="p-8 flex flex-col space-y-10">

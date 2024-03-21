@@ -19,13 +19,14 @@ export function Blog() {
       title="September 10, 2021 by Admin"
 
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic
-          culpa veritatis,  labore rerum, optio eligendi molestiae!......."
+        culpa veritatis, ratione numquam magni iure quaerat tempore esse
+        cumque,  optio eligendi molestiae!"
           icon={FaComments }
           
           number={13}
           
 
-          src="play.png.jpg"
+          src="play1.png"
       />
       <BlogCard
       title="September 10, 2021 by Admin"

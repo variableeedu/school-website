@@ -8,8 +8,8 @@ export function BlogCard(props: {
 }) {
   return (
     <>
-      <div className="w-[360px]  space-y-4 ">
-        <img className="rounded-lg " src={props.src} alt="" />
+      <div className="w-[360px] text-[22px]   space-y-4 ">
+        <img className="rounded-lg h-[400px] w-[400px] " src={props.src} alt="" />
         <div>{props.description}</div>
         <div className=" font-bold">{props.title}</div>
 
