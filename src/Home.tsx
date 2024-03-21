@@ -4,7 +4,7 @@ import { MainActivity } from "./main-acitvity";
 import { MainGallery } from "./main-gallery";
 import { MainBlog } from "./main-blog";
 import { MainStaff } from "./main-staff";
-import { Contact } from "./contact";
+import { BContact } from "./bcontact";
 import { LogoPage } from "./logo";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <MainBlog />
       <MainStaff />
       <MainGallery />
-      <Contact />
+      <BContact />
      <LogoPage/>
     </div>
   );

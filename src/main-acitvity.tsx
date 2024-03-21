@@ -2,7 +2,7 @@ import { Button } from "./button";
 import { Activies } from "./activies";
 export function MainActivity(){
     return<>
-     <div className=" p-8 bg-gray-200">
+     <div className=" p-8 bg-clip-bg bg-transparent bg-gradient-to-r from-gray-200 to-gray-400">
         <div className="space-y-8">
           <div className="  font-bold text-[35px]">
             <div>Lorem Ipsum dolor</div>

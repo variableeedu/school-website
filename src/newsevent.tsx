@@ -5,15 +5,16 @@ import { FaComments } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { Button } from "./button";
 import { Heading } from "./heading";
-import { Blog } from "./blog";
 import { BlogCard } from "./blog-card";
+import { Submit } from "./submit";
+import { LogoPage } from "./logo";
 function App4() {
   return (
     <div className="max-w-[1400px] mx-auto">
       <Header />
       <Header2 title=" News & Event" description="News & Event" />
-      <div className=" border-4 p-8">
-        <div className="border-2 flex   space-x-10">
+      <div className="  p-8">
+        <div className=" flex   space-x-10">
           <div className=" space-y-4">
             <img className="h-[600px] w-[2300px] " src="4p1.png" alt="" />
             <div className=" text-[25px] font-bold text-blue-400">
@@ -53,7 +54,9 @@ function App4() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
                 debitis earum voluptatum molestiae nulla.
               </div>
-              <div className="font-bold text-[20px] text-red-500">READMORE</div>
+              <div className="font-bold text-[20px] text-red-500">
+                READMORE ❯ ❯ ❯
+              </div>
               <div className="pt-8 space-y-2">
                 <img className="h-[250px] w-[410px] " src="4p3.png" alt="" />
                 <div className=" font-bold text-[20px] text-blue-300">
@@ -63,14 +66,14 @@ function App4() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
                 <div className="font-bold text-[20px] text-red-500">
-                  READMORE
+                  READMORE ❯ ❯ ❯
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="p-8 bg-gray-200">
+      <div className="p-8 bg-gray-100">
         <Heading title="LATEST NEWS & EVENT" />
         <div className="space-y-14">
           <div className=" flex justify-between">
@@ -81,6 +84,8 @@ function App4() {
           cumque,  optio eligendi molestiae!"
               icon={FaComments}
               number={14}
+              topic=" Read more ❯❯❯ "
+
               src="4p5.png"
             />
             <BlogCard
@@ -91,6 +96,7 @@ function App4() {
               icon={FaComments}
               number={16}
               src="4p6.png"
+              topic=" Read more ❯❯❯ "
             />{" "}
             <BlogCard
               title="September 10, 2021 by Admin"
@@ -100,10 +106,44 @@ function App4() {
               icon={FaComments}
               number={14}
               src="4p7.png"
+              topic=" Read more ❯❯❯ "
+
             />
           </div>
           <div className="flex justify-between">
-            <Blog />
+             <BlogCard
+            title="September 10, 2021 by Admin"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic
+        culpa veritatis, ratione numquam magni iure quaerat tempore esse
+        cumque,  optio eligendi molestiae!"
+            icon={FaComments}
+            number={15}
+            topic=" Read more ❯❯❯ "
+
+            src="painting1.png"
+          />
+          <BlogCard
+            title="September 10, 2021 by Admin"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic
+        culpa veritatis, ratione numquam magni iure quaerat tempore esse
+        cumque,  optio eligendi molestiae!"
+            icon={FaComments}
+            number={17}
+            topic=" Read more ❯❯❯ "
+
+            src="play1.png"
+          />{" "}
+          <BlogCard
+            title="September 10, 2021 by Admin"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic
+        culpa veritatis, ratione numquam magni iure quaerat tempore esse
+        cumque,  optio eligendi molestiae!"
+            icon={FaComments}
+            number={18}
+            topic=" Read more ❯❯❯ "
+
+            src=".png"
+          />
           </div>
           <div className=" flex justify-between">
             <BlogCard
@@ -113,6 +153,8 @@ function App4() {
           cumque,  optio eligendi molestiae!"
               icon={FaComments}
               number={15}
+              topic=" Read more ❯❯❯ "
+
               src="4p8.png"
             />
             <BlogCard
@@ -122,6 +164,8 @@ function App4() {
           cumque,  optio eligendi molestiae!"
               icon={FaComments}
               number={17}
+              topic=" Read more ❯❯❯ "
+
               src="4p9.png"
             />{" "}
             <BlogCard
@@ -131,23 +175,25 @@ function App4() {
           cumque,  optio eligendi molestiae!"
               icon={FaComments}
               number={18}
+              topic=" Read more ❯❯❯ "
+
               src="4p10.png"
             />
           </div>
           <div className=" flex  justify-between">
             <div className=" flex space-x-[1px] ">
-            <Button title="❮ Prev" className="w-[80px] rounded-r-none " />
-            <Button title="Next ❯" className="w-[80px] rounded-l-none  " />
-             
+              <Button title="❮ Prev" className="w-[80px] rounded-r-none " />
+              <Button title="Next ❯" className="w-[80px] rounded-l-none  " />
             </div>
             <div className="flex  space-x-[1px]">
-            <Button title="Page" className="w-[80px] rounded-r-none " />
-            <Button title="2 ⮟🢒" className="w-[80px] rounded-l-none  " />
-             
+              <Button title="Page" className="w-[80px] rounded-r-none " />
+              <Button title="2 ⮟" className="w-[80px] rounded-l-none  " />
             </div>
           </div>
         </div>
       </div>
+      <Submit />
+      <LogoPage />
     </div>
   );
 }
