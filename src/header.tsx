@@ -10,19 +10,19 @@ export function Header() {
         <a href="/home" className="">
           Home
         </a>
-        <a href="about" className="">
+        <a href="/about" className="">
           About us
         </a>
-        <a href="management" className="">
+        <a href="/management" className="">
           Management
         </a>
-        <a href="newsevent" className="">
+        <a href="/newsevent" className="">
           News & Event
         </a>
-        <a href="gallery" className="">
+        <a href="/gallery" className="">
           Gallery
         </a>
-        <a href="contact" className="">
+        <a href="/contact" className="">
           Contact us
         </a>
         <WiMoonAltThirdQuarter className="h-10 w-10 rounded-full bg-gray-200" />

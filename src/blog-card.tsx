@@ -8,7 +8,7 @@ export function BlogCard(props: {
   number: number;
 }) {
   return (
-    <>
+    <a href="/newsevent/:newsId">
       <div className="w-[360px] text-[22px]   space-y-4 ">
         <img
           className="rounded-lg h-[400px] w-[400px] "
@@ -24,10 +24,10 @@ export function BlogCard(props: {
             {props.number}
           </div>
           <div className=" text-[15px] font-bold pt-3 text-red-500">
-           {props.topic}
+            {props.topic}
           </div>
         </div>
       </div>
-    </>
+    </a>
   );
 }

@@ -8,6 +8,7 @@ import Management from "./management.tsx";
 import Newsevent from "./newsevent.tsx";
 import Gallery from "./gallery.tsx";
 import Contact from "./contact.tsx";
+import NewsId from "./newsId.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/newsevent",
     element: <Newsevent></Newsevent>,
+  },
+  {
+    path: "/newsevent/:newsId",
+    element: <NewsId></NewsId>,
   },
   {
     path: "/gallery",

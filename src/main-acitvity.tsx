@@ -1,8 +1,9 @@
 import { Button } from "./button";
 import { Activies } from "./activies";
-export function MainActivity(){
-    return<>
-     <div className=" p-8 bg-clip-bg bg-transparent bg-gradient-to-r from-gray-200 to-gray-400">
+export function MainActivity() {
+  return (
+    <>
+      <div className=" p-8 bg-clip-bg bg-transparent bg-gradient-to-r from-gray-200 to-gray-400">
         <div className="space-y-8">
           <div className="  font-bold text-[35px]">
             <div>Lorem Ipsum dolor</div>
@@ -13,9 +14,8 @@ export function MainActivity(){
             eiusmod temp incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam.
           </div>
-          <Button 
-
-          title="More Info  →"/>
+          <img  className="rounded-full w-[200px]"src="pro.png" alt="" />
+          <Button title="More Info  →" />
         </div>
         <div className=" pt-20 pb-12 text-[37px] flex  font-medium space-x-4">
           <div className="">SOME OF OUR </div>
@@ -24,5 +24,7 @@ export function MainActivity(){
         <div className=" flex  justify-between">
           <Activies />
         </div>
-      </div></>
+      </div>
+    </>
+  );
 }
