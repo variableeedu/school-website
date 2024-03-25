@@ -5,7 +5,7 @@ export function Header() {
   const [index, setIndex] = useState(0);
   return (
     <>
-      <div className="flex h-24 bg-gray-100   w-full p-8 text-[22px] space-x-20 ">
+      <div className="flex h-24 bg-gray-100 pl-16  w-full p-8 text-[22px] space-x-20 ">
         <a className="">Rapkhen</a>
         <a href="/home" className="">
           Home
